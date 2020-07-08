@@ -8,7 +8,7 @@
 >Password: “*raspberry*”
 5. Run “*sudo raspi-config*” to enable SSH so we can login using our remote machine.
 6. Go to “Interfacing Options” and then enable SSH.
-7. Login into your Pi using your computer by simplify typing in the IP address of the Pi. Type “hostname -l” into the Pi to retrieve IP address if unsure.
+7. Login into your Pi using your computer by simply typing in the IP address of the Pi. Type “hostname -l” into the Pi to retrieve IP address if unsure.
 8. Download Putty @ https://www.putty.org/ and enter in the IP address of the Pi to access it remotely via the SSH protocol.
 9. Follow the steps listed in this tutorial to configure the web server setup i.e. hosting your own website. https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress
 10. Throughout this tutorial you will find commands like “*sudo leafpad*”, this is only capable of running with the “Desktop” version of the Raspian OS (GUI). With this lightweight OS version minimising resource usage you can replace “*sudo leafpad*” with “*sudo nano*” to edit the files via the Pi terminal.
