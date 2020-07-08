@@ -4,7 +4,7 @@
 2. Flash the “.zip” file onto your SD card (preferably 8GB or greater) using Etcher @ https://www.balena.io/etcher/
 3. Insert SD card into Raspberry Pi and connect it to your router via Ethernet cable
 4. Login to Pi using 
->Username: “pi”....
+>Username: “pi” & 
 >Password: “raspberry”
 5. Run “sudo raspi-config” to enable SSH so we use can login using our remote machine
 6. Go to “Interfacing Options” and then enable SSH
