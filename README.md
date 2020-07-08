@@ -14,6 +14,6 @@
 10. Throughout this tutorial you will find commands like “*sudo leafpad*”. which is only capable of running with the “Desktop” version of the Raspian OS (GUI). With this lightweight OS version minimising resource usage you can replace “*sudo leafpad*” with “*sudo nano*” to edit the files via the Pi terminal.
 11. On the “Install SQL” page, replace the command “*sudo apt-get install mysql-server php-mysql -y*” with “*sudo apt install mariadb-server mariadb-client php-mysql -y*”. In a Recently, Raspbian MySQL has been replaced replaced with MariaDB, a fork of the MySQL. 
 12. Continue with the guide @ https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress
-13. VOILA! You have your own Raspberry Pi Web Server perfectly capable of Hosting Your Own Website. This solution is **WAY CHEAPER** than purchasing Web Hosting from vendors like “BlueHost” and “HostGator”. You also have the comfort, leisure and privacy to keep your **personal data**. 
+13. VOILA! You have your own Raspberry Pi Web Server perfectly capable of Hosting Your Own Website. This solution is **WAY CHEAPER** than purchasing Web Hosting from vendors like “BlueHost” and “HostGator”. You also have the comfort, leisure and privacy to keep your **PERSONAL DATA**. 
 
 ![Wordpress_Default_Site](https://user-images.githubusercontent.com/36043248/86948157-a8abf500-c144-11ea-8918-aca36b33c9c8.PNG)
