@@ -15,3 +15,5 @@
 11. On the “Install SQL” page, replace the command “sudo apt-get install mysql-server php-mysql -y” with “sudo apt install mariadb-server mariadb-client php-mysql -y”. In recent version of Raspbian MySQL is replaced with MariaDB which is fork of the MySQL. 
 12. Continue with the guide @ https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress
 13. VOILA! You have your own Raspberry Pi Web Server perfectly capable of Hosting Your Own Website. This solution is WAY CHEAPER than purchasing Web Hosting from clients like “BlueHost” and “HostGator”. You also have the comfort, leisure and privacy to keep your personal data. 
+
+![Wordpress_Default_Site](https://user-images.githubusercontent.com/36043248/86948157-a8abf500-c144-11ea-8918-aca36b33c9c8.PNG)
