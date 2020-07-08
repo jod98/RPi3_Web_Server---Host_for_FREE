@@ -20,6 +20,5 @@
 12. Continue with the guide @ https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress
 13. VOILA! You have your own Raspberry Pi Web Server perfectly capable of Hosting Your Own Website. This solution is **WAY CHEAPER** than purchasing Web Hosting from vendors like “BlueHost” and “HostGator”. You also have the comfort, leisure and privacy to keep your **PERSONAL DATA**. 
 
-Note: This process will allow you to self host and edit your own personal website locally. To make your website available for public consumption, we will need to use "port forwarding" on our router and as bonus we can purchase a domain name from a vendor like "DynaDot" or "NameCheap" to make our URL more appealing. Finally, our finished product will be a **Public Website, Self Hosted using a Raspberry Pi**.
-
+Note: This process will allow you to self host and edit your own personal website locally. To make your website available for public consumption, we will perform the following...
 
