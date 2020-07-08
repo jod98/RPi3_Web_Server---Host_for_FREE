@@ -2,6 +2,8 @@
 
 ![Wordpress_Default_Site](https://user-images.githubusercontent.com/36043248/86948157-a8abf500-c144-11ea-8918-aca36b33c9c8.PNG)
 
+--------------------------------------------------------------------------------------------------------------------------------
+
 1. Download Raspian Lite @ https://www.raspberrypi.org/downloads/raspberry-pi-os/
 2. Flash the “.zip” file onto your SD card (preferably 8GB or greater) using Etcher @ https://www.balena.io/etcher/
 3. Insert SD card into Raspberry Pi and connect it to your router via Ethernet cable.
