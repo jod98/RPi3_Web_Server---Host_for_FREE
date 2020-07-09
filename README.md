@@ -18,9 +18,26 @@
 10. Throughout this tutorial you will find commands like “*sudo leafpad*”. which is only capable of running with the “Desktop” version of the Raspian OS (GUI). With this lightweight OS version minimising resource usage you can replace “*sudo leafpad*” with “*sudo nano*” to edit the files via the Pi terminal.
 11. On the “Install SQL” page, replace the command “*sudo apt-get install mysql-server php-mysql -y*” with “*sudo apt install mariadb-server mariadb-client php-mysql -y*”. In a Recently, Raspbian MySQL has been replaced replaced with MariaDB, a fork of the MySQL. 
 12. Continue with the guide @ https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress
-13. VOILA! You have your own Raspberry Pi Web Server perfectly capable of Hosting Your Own Website. This solution is **WAY CHEAPER** than purchasing Web Hosting from vendors like “BlueHost” and “HostGator”. You also have the comfort, leisure and privacy to keep your **PERSONAL DATA**. 
+13. After this process is completed, retrieve your public IP address of your Pi as we will need this later... Simply type in “*curl ifconfig.me*” and write down this address. Should be of the form "xxx.xx.xx.xxx". 
 
 Note: This process will allow you to create and host your own website **LOCALLY**. To make your website **PUBLIC** i.e. accessible by anyone and not just within your own network then complete the following...
 
-14. 
+15. Purchase a domain from a domain registrar like DynaDot, NameCheap etc. I chose DynaDot, available @ https://www.dynadot.com/. In my case I purchased "jordanodonnell.me"
+16. After your purchase your domain and it has been activated, then navigate to https://www.dynu.com/en-US/ControlPanel/DDNS (create an account first it is **FREE**). Simply enter in your domain name (my case: "jordanodonnell.me") and ensure that "IPv4 address" is the same as the public IP address we retrived earlier from our Raspberry Pi using “*curl ifconfig.me*”. This will map your public IP address to your recently purchased domain name.
+
+![Dynu DNS - Mapping Domain to IP](https://user-images.githubusercontent.com/36043248/87045096-625fa000-c1ef-11ea-9411-cf99c8846409.PNG)
+
+17. After you have mapped your IP address to this domain name, we will then retrieve our nameservers via https://www.cloudflare.com/. Firstly sign up for an account (it is **FREE**) and then navigate to the "DNS" section after your see your domain profile. Ensure the IP address under the "Content" section is the same as that of the Pi yet again. Lastly, copy down the name servers (keep them somewhere safe). These are located where I have said "Name Server 1" and "Name Server 2".
+
+![Cloudflare - NameServers](https://user-images.githubusercontent.com/36043248/87045160-773c3380-c1ef-11ea-96c2-093ca65a9cda.PNG)
+
+18. Penultimately, we need to add those nameservers we wrote down to our account on DynaDot or the registrat you purchased your domain off. After signing in, simply navigate to "Account Info" or your profile. On the left hand-side under "My Domains" we want to click "Manage Domains". Click on the domain you want to add your nameservers to (in my case: "jordanodonnell.me") and then click the "DNS Settings". We will then enter the name of our two nameservers we recorded earlier.
+
+![Adding NameServers to DynaDot (2)](https://user-images.githubusercontent.com/36043248/87045208-858a4f80-c1ef-11ea-8a70-d6f89c928592.PNG)
+
+19. Finally, enter your Pi's public IP address into the address bar of Google Chrome followed by "/wp-admin/". I.e. "XXX.XX.XX.XXX/wp-admin/. We should see our wordpress website. Navigate to "Settings" and "General" and enter in your domain name for the "WordPress Address (URL)" and "Site Address (URL)". Click Save. After waiting a few minutes for changes to active, eimply enter in your domain into the address bar again i.e. "jordanodonnell.me" and you should now see that your domain has changed.
+
+![WordPress Domain Change (Last)](https://user-images.githubusercontent.com/36043248/87045253-96d35c00-c1ef-11ea-8d43-54f08f23afd3.PNG)
+
+VOILA! You have your own Raspberry Pi Web Server perfectly capable of Hosting Your Own Website. This solution is **WAY CHEAPER** than purchasing Web Hosting from vendors like “BlueHost” and “HostGator”. You also have the comfort, leisure and privacy to keep your **PERSONAL DATA**. 
 
