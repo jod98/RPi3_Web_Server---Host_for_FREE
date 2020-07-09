@@ -1,4 +1,4 @@
-# RPi3_Web_Server (Self Host Website)
+# RPi3_Web_Server (Self Hosted Public Website)
 
 ![Wordpress_Default_Site](https://user-images.githubusercontent.com/36043248/86948157-a8abf500-c144-11ea-8918-aca36b33c9c8.PNG)
 
