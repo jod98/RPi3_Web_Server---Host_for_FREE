@@ -1,4 +1,4 @@
-# RPi3_Web_Server (Self Hosted Public Website)
+# RPi3_Web_Server (Host Your Website for FREE)
 
 ![GitHub - Website](https://user-images.githubusercontent.com/36043248/87041048-8c15c880-c1e9-11ea-8927-57134afa0477.PNG)
 
