@@ -22,6 +22,10 @@
 
 Note: This process will allow you to create and host your own website **LOCALLY**. To make your website **PUBLIC** i.e. accessible by anyone and not just within your own network then complete the following...
 
+14. We want to forward a port on our router using "Port Forwarding". We can access this section by logging into our router usually available @ 192.168.1.1 and navigating to the "Port Forwarding" or "Port Mapping" section. We simply want to forward the port of Raspbery Pi's private IP address. Enter "80" for both the "External port" and "Internal port" as this is the port dedictated to HTTP requests. After completing this we should be able to type in the Raspberry Pi's public IP address (test on a different network i.e. using 4G or someone else's network) and it will redirect us to our website we just created via WordPress (note: this is now available for public consumption, next we want to map that public IP address to our domain name we will purchase). 
+
+![Port-Forwarding](https://user-images.githubusercontent.com/36043248/87045938-62ac6b00-c1f0-11ea-8148-92f37c479fbc.PNG)
+
 15. Purchase a domain from a domain registrar like DynaDot, NameCheap etc. I chose DynaDot, available @ https://www.dynadot.com/. In my case I purchased "jordanodonnell.me"
 16. After your purchase your domain and it has been activated, navigate to https://www.dynu.com/en-US/ControlPanel/DDNS (create an account first it is **FREE**). Simply enter in your domain name (my case: "jordanodonnell.me") and ensure that "IPv4 address" is the same as the public IP address we retrived earlier from our Raspberry Pi using “*curl ifconfig.me*”. This will map your public IP address to your recently purchased domain name.
 
