@@ -1,6 +1,6 @@
 # RPi3_Web_Server (Self Hosted Public Website)
 
-![Wordpress_Default_Site](https://user-images.githubusercontent.com/36043248/86948157-a8abf500-c144-11ea-8918-aca36b33c9c8.PNG)
+![GitHub - Website](https://user-images.githubusercontent.com/36043248/87041048-8c15c880-c1e9-11ea-8927-57134afa0477.PNG)
 
 --------------------------------------------------------------------------------------------------------------------------------
 
