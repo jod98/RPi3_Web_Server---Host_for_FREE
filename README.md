@@ -31,7 +31,7 @@ Note: This process will allow you to create and host your own website **LOCALLY*
 
 ![Dynu DNS - Mapping Domain to IP](https://user-images.githubusercontent.com/36043248/87045096-625fa000-c1ef-11ea-9411-cf99c8846409.PNG)
 
-17. After you have mapped your IP address to this domain name, we will then retrieve our nameservers via https://www.cloudflare.com/. Firstly sign up for an account (it is **FREE**) and then navigate to the "DNS" section after clicking your domain profile. Ensure the IP address under the "Content" section is the same as that of the Pi yet again. Lastly, copy down the nameservers (keep them somewhere safe). These are located where I have said "Name Server 1" and "Name Server 2".
+17. After you have mapped your IP address to this domain name, we will then retrieve our nameservers via https://www.cloudflare.com/. Firstly sign up for an account (it is **FREE**) and then navigate to the "DNS" section after clicking your domain profile. Ensure the IP address under the "Content" section is the same as Pi's public IP yet again. Lastly, copy down the nameservers (keep them somewhere safe). These are located where I have said "Name Server 1" and "Name Server 2".
 
 ![Cloudflare - NameServers](https://user-images.githubusercontent.com/36043248/87045160-773c3380-c1ef-11ea-96c2-093ca65a9cda.PNG)
 
