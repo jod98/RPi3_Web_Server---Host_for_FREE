@@ -23,7 +23,7 @@
 Note: This process will allow you to create and host your own website **LOCALLY**. To make your website **PUBLIC** i.e. accessible by anyone and not just within your own network then complete the following...
 
 15. Purchase a domain from a domain registrar like DynaDot, NameCheap etc. I chose DynaDot, available @ https://www.dynadot.com/. In my case I purchased "jordanodonnell.me"
-16. After your purchase your domain and it has been activated, then navigate to https://www.dynu.com/en-US/ControlPanel/DDNS (create an account first it is **FREE**). Simply enter in your domain name (my case: "jordanodonnell.me") and ensure that "IPv4 address" is the same as the public IP address we retrived earlier from our Raspberry Pi using “*curl ifconfig.me*”. This will map your public IP address to your recently purchased domain name.
+16. After your purchase your domain and it has been activated, navigate to https://www.dynu.com/en-US/ControlPanel/DDNS (create an account first it is **FREE**). Simply enter in your domain name (my case: "jordanodonnell.me") and ensure that "IPv4 address" is the same as the public IP address we retrived earlier from our Raspberry Pi using “*curl ifconfig.me*”. This will map your public IP address to your recently purchased domain name.
 
 ![Dynu DNS - Mapping Domain to IP](https://user-images.githubusercontent.com/36043248/87045096-625fa000-c1ef-11ea-9411-cf99c8846409.PNG)
 
