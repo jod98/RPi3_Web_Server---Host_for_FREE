@@ -43,3 +43,8 @@ Note: This process will allow you to create and host your own website **LOCALLY*
 
 VOILA! You have your own Raspberry Pi Web Server perfectly capable of Hosting Your Own Website. This solution is **WAY CHEAPER** than purchasing Web Hosting from vendors like “BlueHost” and “HostGator”. You also have the comfort, leisure and privacy to keep your **PERSONAL DATA**. 
 
+Finalised Website --->
+
+![Website](https://user-images.githubusercontent.com/36043248/87189430-894dcd00-c2e8-11ea-93b2-58587690324d.PNG)
+
+
