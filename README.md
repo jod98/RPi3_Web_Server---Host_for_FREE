@@ -1,6 +1,8 @@
 # RPi3_Web_Server (Host Your Website for FREE)
 
-#### With a keen interest in web development, I wanted to better understand how one could “make a website”. After investigating into the hefty prices of hosting a domain, I decided to create my own web server with a Raspberry Pi 3 I had. This project exposed me to Apache, PHP,  MySQL, HTML and SSL certificates, just to name a few. This solution is tremendously cheaper than purchasing web hosting from vendors like “Blue Host” or “Host Gator”. You also have the comfort knowing your that your personal data is not being distributed globally. Note: Currently, this website is being self hosted via my Raspberry Pi 3. 
+#### With a keen interest in web development, I wanted to better understand how one could “make a website”. After investigating into the prices of hosting a domain, I decided to create my own web server using a Raspberry Pi 3 I had (living the stereotypical student life I know). This project exposed me to the likes of Apache, PHP, MySQL and HTML. This solution is cheaper than purchasing web hosting, I have the comfort of mind knowing my personal data is not being distributed globally and best of all, I learnt a lot. 
+
+#### My Website: 
 
 ![GitHub - Website](https://user-images.githubusercontent.com/36043248/87041048-8c15c880-c1e9-11ea-8927-57134afa0477.PNG)
 
