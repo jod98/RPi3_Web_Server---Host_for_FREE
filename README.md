@@ -57,6 +57,8 @@ Note: This process will allow you to create and host your own website **LOCALLY*
 
 23. Lastly, before you begin editing your website, I encourage you to set up SSL. This is the "lock" icon you see which informs the user that the website is "secure" which encrypts all your personal data you enter into the site like credit card details, phone numbers etc. As a result your website will have the "https://" initial address. To begin setting up SSL follow this guide: https://variax.wordpress.com/2017/03/18/adding-https-to-the-raspberry-pi-apache-web-server/comment-page-1/. After you complete this guide you will want to restart your Apache web server by issuing the following command: “*sudo systemctl restart apache2*”. Lastly, follow this portion of the YouTube video to finalise setting up SSL: https://youtu.be/8AZ8GqW5iak?t=4073
 
+![SSL](https://user-images.githubusercontent.com/36043248/87311151-c7c8cf00-c516-11ea-93fd-971c7f727360.PNG)
+
 24. To being editing your wordpress website, I highly recommend this YouTube video: https://youtu.be/8AZ8GqW5iak
 
 VOILA! You have your own Raspberry Pi Web Server perfectly capable of Hosting Your Own Website. This solution is **WAY CHEAPER** than purchasing Web Hosting from vendors like “BlueHost” and “HostGator”. You also have the comfort, leisure and privacy to keep your **PERSONAL DATA**. 
