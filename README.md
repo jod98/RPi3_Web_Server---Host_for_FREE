@@ -36,7 +36,7 @@ Note: This process will allow you to create and host your own website **LOCALLY*
 
 ![Cloudflare - NameServers](https://user-images.githubusercontent.com/36043248/87045160-773c3380-c1ef-11ea-96c2-093ca65a9cda.PNG)
 
-17. We need to add those nameservers we wrote down to our account on DynaDot or the registrar you purchased your domain off. After signing in, simply navigate to "Account Info" or your profile. On the left hand-side under "My Domains" we want to click "Manage Domains". Click on the domain you want to add your nameservers to (in my case: "jordanodonnell.me") and then click "DNS Settings". We will then enter the name of our two nameservers we recorded earlier.
+17. We need to add those nameservers we wrote down to our account on DynaDot or the registrar you purchased your domain off. After signing in, simply navigate to "Account Info" or your profile. On the left hand-side under "My Domains" we want to click "Manage Domains". Click on the domain you want to add your nameservers to (in my case: "jordanodonnell.me") and then click "DNS Settings". Click the drop down menu and change "DynaDot Parking" to "Name Servers". Next, we will then enter the name of our two nameservers we recorded earlier.
 
 ![Adding NameServers to DynaDot (2)](https://user-images.githubusercontent.com/36043248/87045208-858a4f80-c1ef-11ea-8a70-d6f89c928592.PNG)
 
