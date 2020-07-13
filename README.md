@@ -37,13 +37,25 @@ Note: This process will allow you to create and host your own website **LOCALLY*
 
 ![Cloudflare - NameServers](https://user-images.githubusercontent.com/36043248/87045160-773c3380-c1ef-11ea-96c2-093ca65a9cda.PNG)
 
-18. Penultimately, we need to add those nameservers we wrote down to our account on DynaDot or the registrar you purchased your domain off. After signing in, simply navigate to "Account Info" or your profile. On the left hand-side under "My Domains" we want to click "Manage Domains". Click on the domain you want to add your nameservers to (in my case: "jordanodonnell.me") and then click "DNS Settings". We will then enter the name of our two nameservers we recorded earlier.
+18. We need to add those nameservers we wrote down to our account on DynaDot or the registrar you purchased your domain off. After signing in, simply navigate to "Account Info" or your profile. On the left hand-side under "My Domains" we want to click "Manage Domains". Click on the domain you want to add your nameservers to (in my case: "jordanodonnell.me") and then click "DNS Settings". We will then enter the name of our two nameservers we recorded earlier.
 
 ![Adding NameServers to DynaDot (2)](https://user-images.githubusercontent.com/36043248/87045208-858a4f80-c1ef-11ea-8a70-d6f89c928592.PNG)
 
-19. Finally, enter your Pi's public IP address into the address bar of Google Chrome followed by "/wp-admin/". I.e. "XXX.XX.XX.XXX/wp-admin/. We should see our wordpress website. Navigate to "Settings" and "General" and enter in your domain name for the "WordPress Address (URL)" and "Site Address (URL)". Click Save. After waiting a few minutes for changes to active, simply enter in your domain into the address bar again i.e. "jordanodonnell.me" and you should now see that your domain has changed.
+19. Enter your Pi's public IP address into the address bar of Google Chrome followed by "/wp-admin/" i.e. "XXX.XX.XX.XXX/wp-admin/. We should see our wordpress website. Navigate to "Settings" and "General" and enter in your domain name for the "WordPress Address (URL)" and "Site Address (URL)". Click Save. After waiting a few minutes for changes to active, simply enter in your domain into the address bar again i.e. "jordanodonnell.me" and you should now see that your domain has changed.
 
 ![WordPress Domain Change (Last)](https://user-images.githubusercontent.com/36043248/87045253-96d35c00-c1ef-11ea-8d43-54f08f23afd3.PNG)
+
+20. Next want to dyanmically update our public IP which is linked to our domain on CloudFlare. The reason we want to do this is because if your router resets as a result of a power outtage the public IP will change. This will cause your domain name to no longer be mapped to your public IP meaning you won't be able to access your website via your domain name i.e. "jordanodonnell.me". To solve this issue, we want to retrieve a free temporary hostname which will dyanmically retrieve the updated IP address and then re-map that to your domain. Simply sign up with an account with NO-IP and navigate to this page: https://my.noip.com/#!/dynamic-dns. On this page you will need to retrieve a free hostname and map that to your public IP as you can see in the screenshot below. 
+
+![NO-IP](https://user-images.githubusercontent.com/36043248/87309126-15900800-c514-11ea-887f-4b12ff6c26c8.PNG)
+
+21. We want to now recongire our CloudFlare settings. Navigate to the "DNS" section like before by this time we want to delete our two 'A' records and add just a "CNAME" record like in the screenshot below. You then want to add your domain name under the "Name" column and your new hostname you retreived in the last step under the "Content" column.
+
+![CloudFlare](https://user-images.githubusercontent.com/36043248/87309439-8505f780-c514-11ea-881a-e61391a2f928.PNG)
+
+22. Finally, In order to dynamically re-map our domain to the new public IP in an event of our router resetting, we need to install NO-IP client on our Raspberry Pi. Follow this guide here: https://ivancarosati.com/no-ip-with-raspberry-pi/. After completing this guide, reset your router and input your domain name in to the Google Chrome address bar to it works.
+
+22. To being editing your wordpress website, I highly recommend this YouTube video (https://youtu.be/8AZ8GqW5iak)
 
 VOILA! You have your own Raspberry Pi Web Server perfectly capable of Hosting Your Own Website. This solution is **WAY CHEAPER** than purchasing Web Hosting from vendors like “BlueHost” and “HostGator”. You also have the comfort, leisure and privacy to keep your **PERSONAL DATA**. 
 
