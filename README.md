@@ -40,7 +40,7 @@ Note: This process will allow you to create and host your own website **LOCALLY*
 
 ![Adding NameServers to DynaDot (2)](https://user-images.githubusercontent.com/36043248/87045208-858a4f80-c1ef-11ea-8a70-d6f89c928592.PNG)
 
-18. Enter your Pi's public IP address into the address bar of Google Chrome followed by "/wp-admin/" i.e. "XXX.XX.XX.XXX/wp-admin/. We should see our wordpress website. Navigate to "Settings" and "General" and enter in your domain name for the "WordPress Address (URL)" and "Site Address (URL)". Click Save. After waiting a few minutes for changes to active, simply enter in your domain into the address bar again i.e. "jordanodonnell.me" and you should now see that your domain has changed.
+18. Enter your Pi's public IP address into the address bar of Google Chrome followed by "/wp-admin/" i.e. "XXX.XX.XX.XXX/wp-admin/". We should see our wordpress website. Navigate to "Settings" and "General" and enter in your domain name for the "WordPress Address (URL)" and "Site Address (URL)". Click Save. After waiting a few minutes for changes to active, simply enter in your domain into the address bar again i.e. "jordanodonnell.me" and you should now see that your domain has changed.
 
 ![WordPress Domain Change (Last)](https://user-images.githubusercontent.com/36043248/87045253-96d35c00-c1ef-11ea-8d43-54f08f23afd3.PNG)
 
