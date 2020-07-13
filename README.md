@@ -55,7 +55,7 @@ Note: This process will allow you to create and host your own website **LOCALLY*
 
 22. Finally, In order to dynamically re-map our domain to the new public IP in an event of our router resetting, we need to install NO-IP client on our Raspberry Pi. Follow this guide here: https://ivancarosati.com/no-ip-with-raspberry-pi/. After completing this guide, reset your router and input your domain name in to the Google Chrome address bar to it works.
 
-22. To being editing your wordpress website, I highly recommend this YouTube video (https://youtu.be/8AZ8GqW5iak)
+22. To being editing your wordpress website, I highly recommend this YouTube video: https://youtu.be/8AZ8GqW5iak
 
 VOILA! You have your own Raspberry Pi Web Server perfectly capable of Hosting Your Own Website. This solution is **WAY CHEAPER** than purchasing Web Hosting from vendors like “BlueHost” and “HostGator”. You also have the comfort, leisure and privacy to keep your **PERSONAL DATA**. 
 
