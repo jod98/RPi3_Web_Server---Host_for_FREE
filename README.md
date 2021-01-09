@@ -50,7 +50,7 @@ Note: This process will allow you to create and host your own website **LOCALLY*
 
 ![NO-IP](https://user-images.githubusercontent.com/36043248/87309126-15900800-c514-11ea-887f-4b12ff6c26c8.PNG)
 
-20. We want to now recongire our CloudFlare settings. Navigate to the "DNS" section like before by this time we want to delete our two 'A' records and add just a "CNAME" record like in the screenshot below. You then want to add your domain name under the "Name" column and your new hostname you retreived in the last step under the "Content" column.
+20. We want to now reconfigure our CloudFlare settings. Navigate to the "DNS" section like before by this time we want to delete our two 'A' records and add just a "CNAME" record like in the screenshot below. You then want to add your domain name under the "Name" column and your new hostname you retreived in the last step under the "Content" column.
 
 ![CloudFlare](https://user-images.githubusercontent.com/36043248/87309439-8505f780-c514-11ea-881a-e61391a2f928.PNG)
 
