@@ -54,7 +54,7 @@ Note: This process will allow you to create and host your own website **LOCALLY*
 
 ![CloudFlare](https://user-images.githubusercontent.com/36043248/87309439-8505f780-c514-11ea-881a-e61391a2f928.PNG)
 
-(NO LONGER NECESSARY) 21. Finally, In order to dynamically re-map our domain to the new public IP in an event of our router resetting, we need to install NO-IP client on our Raspberry Pi. Follow this guide here: https://ivancarosati.com/no-ip-with-raspberry-pi/. After completing this guide, reset your router and input your domain name in to the Google Chrome address bar to it works.
+21. (NO LONGER NECESSARY) Finally, In order to dynamically re-map our domain to the new public IP in an event of our router resetting, we need to install NO-IP client on our Raspberry Pi. Follow this guide here: https://ivancarosati.com/no-ip-with-raspberry-pi/. After completing this guide, reset your router and input your domain name in to the Google Chrome address bar to it works.
 
 22. Lastly, before you begin editing your website, I encourage you to set up SSL. This is the "lock" icon you see which informs the user that the website is "secure" which encrypts all your personal data you enter into the site like credit card details, phone numbers etc. As a result your website will have the "https://" initial address. To begin setting up SSL follow this guide: https://variax.wordpress.com/2017/03/18/adding-https-to-the-raspberry-pi-apache-web-server/comment-page-1/. After you complete this guide you will want to restart your Apache web server by issuing the following command: “*sudo systemctl restart apache2*”. Lastly, follow this portion of the YouTube video to finalise setting up SSL: https://youtu.be/8AZ8GqW5iak?t=4073
 
