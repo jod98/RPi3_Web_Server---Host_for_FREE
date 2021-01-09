@@ -68,4 +68,6 @@ Finalised Website --->
 
 ![Website](https://user-images.githubusercontent.com/36043248/87189430-894dcd00-c2e8-11ea-93b2-58587690324d.PNG)
 
+PS. To avoid potential issues in the future through updated themes/plugins, it is recommended that you create a backup of your website. These guides demonstrate how you can begin to schedule routinely backups: https://www.youtube.com/watch?v=bmx39y_8tOs&ab_channel=CreateaProWebsite and https://medium.com/@christoph.schmidl/how-to-manually-backup-wordpress-daa43e37a9bd
+
 
