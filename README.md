@@ -30,7 +30,7 @@ Note: This process will allow you to create and host your own website **LOCALLY*
 
 ![Port-Forwarding](https://user-images.githubusercontent.com/36043248/87045938-62ac6b00-c1f0-11ea-8148-92f37c479fbc.PNG)
 
-14a. Repeat this process but this time we want to enter port number "443". This is required for a future step, allowing us to redirect traffic from "http" to "https" requests. In simple terms, this will make the website more secure by encrypting data. N.B. Ensure you reset your router/modem after this process so the changes can take effect.
+14.(a) Repeat this process but this time we want to enter port number "443". This is required for a future step, allowing us to redirect traffic from "http" to "https" requests. In simple terms, this will make the website more secure by encrypting data. N.B. Ensure you reset your router/modem after this process so the changes can take effect.
 
 ![Port Forwarding - 2](https://user-images.githubusercontent.com/36043248/104127868-716d0980-535c-11eb-8494-2bf5bf484b7f.PNG)
 
