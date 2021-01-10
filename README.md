@@ -13,7 +13,7 @@
 1. Download Raspian Lite @ https://www.raspberrypi.org/downloads/raspberry-pi-os/
 2. Flash the “.zip” file onto your SD card (preferably 8GB or greater) using Etcher @ https://www.balena.io/etcher/
 3. Insert SD card into Raspberry Pi and connect it to your router via Ethernet cable.
-4. Login to Pi using 
+4. Connect the Pi to your TV/monitor via a HDMI cable and login using 
 >Username: “*pi*” & 
 >Password: “*raspberry*”
 5. Run “*sudo raspi-config*” to enable SSH so we can login using our remote machine.
