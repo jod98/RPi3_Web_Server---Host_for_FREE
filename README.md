@@ -66,7 +66,7 @@ Note: This process will allow you to create and host your own website **LOCALLY*
 
 ![General Settings - Wordpress](https://user-images.githubusercontent.com/36043248/104128776-5d77d680-5361-11eb-9639-7a6dafeb788d.PNG)
 
-23. To being editing your wordpress website, I highly recommend this YouTube video: https://youtu.be/8AZ8GqW5iak
+23. To being editing your wordpress website, I highly recommend this YouTube video: https://youtu.be/8AZ8GqW5iak. Sidenote: Install XMLReader PHP extension library on your Pi by simply issuing the following command in the terminal 'sudo apt install php7.3-xml'
 
 VOILA! You have your own Raspberry Pi Web Server perfectly capable of Hosting Your Own Website. This solution is **WAY CHEAPER** than purchasing Web Hosting from vendors like “BlueHost” and “HostGator”. You also have the comfort, leisure and privacy to keep your **PERSONAL DATA**. 
 
