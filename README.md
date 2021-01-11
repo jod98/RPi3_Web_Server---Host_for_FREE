@@ -68,6 +68,8 @@ Note: This process will allow you to create and host your own website **LOCALLY*
 
 23. To being editing your wordpress website, I highly recommend this YouTube video: https://youtu.be/8AZ8GqW5iak.
 
+24. To avoid potential issues in the future through updated themes/plugins, it is recommended that you create a backup of your website. These guides demonstrate how you can begin to schedule routinely backups: https://www.youtube.com/watch?v=bmx39y_8tOs&ab_channel=CreateaProWebsite and https://medium.com/@christoph.schmidl/how-to-manually-backup-wordpress-daa43e37a9bd
+
 VOILA! You have your own Raspberry Pi Web Server perfectly capable of Hosting Your Own Website. This solution is **WAY CHEAPER** than purchasing Web Hosting from vendors like “BlueHost” and “HostGator”. You also have the comfort, leisure and privacy to keep your **PERSONAL DATA**. 
 
 Finalised Website --->
@@ -76,6 +78,6 @@ Finalised Website --->
 
 PS. During the process you may receive errors relating to 'XMLReader Extension' and 'cURL support' when importing a website. Simply issue these commands into the terminal to bypass these errors; 'sudo apt install php7.3-xml' and 'sudo apt install php-curl'
 
-To avoid potential issues in the future through updated themes/plugins, it is recommended that you create a backup of your website. These guides demonstrate how you can begin to schedule routinely backups: https://www.youtube.com/watch?v=bmx39y_8tOs&ab_channel=CreateaProWebsite and https://medium.com/@christoph.schmidl/how-to-manually-backup-wordpress-daa43e37a9bd
+
 
 
