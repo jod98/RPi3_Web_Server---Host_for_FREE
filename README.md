@@ -72,7 +72,7 @@ Note: This process will allow you to create and host your own website **LOCALLY*
 
 VOILA! You have your own Raspberry Pi Web Server perfectly capable of Hosting Your Own Website. This solution is **WAY CHEAPER** than purchasing Web Hosting from vendors like “BlueHost” and “HostGator”. You also have the comfort, leisure and privacy to keep your **PERSONAL DATA**. 
 
-PS. During the process you may receive errors relating to 'XMLReader Extension' and 'cURL support' when importing a website. Simply issue these commands into the terminal to bypass these errors; 'sudo apt install php7.3-xml' and 'sudo apt install php-curl'
+PS. During the process you may receive errors relating to 'XMLReader Extension' and 'cURL support' when importing a website. Simply issue these commands into the terminal to bypass these errors; 'sudo apt install php7.3-xml' and 'sudo apt-get install php7.3-curl'
 
 
 
