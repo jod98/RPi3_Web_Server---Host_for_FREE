@@ -74,6 +74,8 @@ VOILA! You have your own Raspberry Pi Web Server perfectly capable of Hosting Yo
 
 PS. During the process you may receive errors relating to 'XMLReader Extension' and 'cURL support' when importing a website. Simply issue these commands into the terminal to bypass these errors; 'sudo apt install php7.3-xml' and 'sudo apt-get install php7.3-curl'
 
+PSS. Don't change post permalinks to 'post name' at beginning. Leave as default
+
 
 
 
