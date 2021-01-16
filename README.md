@@ -4,7 +4,7 @@
 
 #### My Website: 
 
-![Website](https://user-images.githubusercontent.com/36043248/87189430-894dcd00-c2e8-11ea-93b2-58587690324d.PNG)
+![Website](https://user-images.githubusercontent.com/36043248/104812522-b381c980-57fa-11eb-886d-c49ff65a9087.PNG)
 
 -------------------------------------------------------------------------------------------------------------------------------
 
