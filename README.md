@@ -68,7 +68,9 @@ Note: This process will allow you to create and host your own website **LOCALLY*
 
 23. To being editing your wordpress website, I highly recommend this YouTube video: https://youtu.be/8AZ8GqW5iak.
 
-24. To avoid potential issues in the future through updated themes/plugins, it is recommended that you create a backup of your website. These guides demonstrate how you can begin to schedule routinely backups: https://www.youtube.com/watch?v=bmx39y_8tOs&ab_channel=CreateaProWebsite and https://medium.com/@christoph.schmidl/how-to-manually-backup-wordpress-daa43e37a9bd
+24. Optional: Using Google Analytics and the MonsterInsights Wordpress Plugin, we can monitor traffic to our website. To set this up follow this tutorial: https://www.youtube.com/watch?v=NB-TvdCBw08
+
+25. To avoid potential issues in the future through updated themes/plugins, it is recommended that you create a backup of your website. These guides demonstrate how you can begin to schedule routinely backups: https://www.youtube.com/watch?v=bmx39y_8tOs&ab_channel=CreateaProWebsite and https://medium.com/@christoph.schmidl/how-to-manually-backup-wordpress-daa43e37a9bd
 
 VOILA! You have your own Raspberry Pi Web Server perfectly capable of Hosting Your Own Website. This solution is **WAY CHEAPER** than purchasing Web Hosting from vendors like “BlueHost” and “HostGator”. You also have the comfort, leisure and privacy to keep your **PERSONAL DATA**. 
 
