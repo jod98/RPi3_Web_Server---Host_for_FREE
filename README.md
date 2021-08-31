@@ -1,4 +1,4 @@
-# Raspberry Pi 3 Web Servier - Host Personal Website for FREE
+# Raspberry Pi 3 Web Server - Host Personal Website for FREE
 
 #### With a keen interest in web development, I wanted to better understand how one could “make a website”. After investigating into the prices of hosting a domain, I decided to create my own web server using a Raspberry Pi 3 I had (living the stereotypical student life I know). This project exposed me to the likes of Apache, PHP, MySQL and HTML. This solution is cheaper than purchasing web hosting, I have the comfort of mind knowing my personal data is not being distributed globally and best of all, I learnt a lot. 
 
