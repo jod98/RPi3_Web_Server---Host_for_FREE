@@ -18,7 +18,7 @@
 6. Go to “Interfacing Options” and then enable SSH.
 7. Login into your Pi using your computer by simply typing in the IP address of the Pi. Type “hostname -l” into the Pi to retrieve IP address if unsure.
 8. Download Putty @ https://www.putty.org/ and enter in the IP address of the Pi to access it remotely via the SSH protocol.
-9. Update and upgrade current packages:
+9. Update and upgrade current packages by entering the following into terminal:
 >“*sudo apt update*”
 >“*sudo apt full-upgrade*”
 >“*sudo reboot*”
