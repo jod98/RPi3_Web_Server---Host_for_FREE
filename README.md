@@ -18,11 +18,15 @@
 6. Go to “Interfacing Options” and then enable SSH.
 7. Login into your Pi using your computer by simply typing in the IP address of the Pi. Type “hostname -l” into the Pi to retrieve IP address if unsure.
 8. Download Putty @ https://www.putty.org/ and enter in the IP address of the Pi to access it remotely via the SSH protocol.
-9. Follow the steps listed in this tutorial to configure the web server setup i.e. hosting your own website. https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress
-10. Throughout this tutorial you will find commands like “*sudo leafpad*”. which is only capable of running with the “Desktop” version of the Raspian OS (GUI). With this lightweight OS version minimising resource usage you can replace “*sudo leafpad*” with “*sudo nano*” to edit the files via the Pi terminal.
-11. On the “Install SQL” page, replace the command “*sudo apt-get install mysql-server php-mysql -y*” with “*sudo apt install mariadb-server mariadb-client php-mysql -y*”. In a Recently, Raspbian MySQL has been replaced replaced with MariaDB, a fork of the MySQL. 
-12. Continue with the guide @ https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress
-13. After this process is completed, retrieve your public IP address of your Pi as we will need this later... Simply type in “*curl ifconfig.me*” and write down this address. Should be of the form "xxx.xx.xx.xxx". 
+9. Update and upgrade current packages:
+“*sudo apt update*”
+“*sudo apt full-upgrade*”
+“*sudo reboot*”
+10. Follow the steps listed in this tutorial to configure the web server setup i.e. hosting your own website. https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress
+11. Throughout this tutorial you will find commands like “*sudo leafpad*”. which is only capable of running with the “Desktop” version of the Raspian OS (GUI). With this lightweight OS version minimising resource usage you can replace “*sudo leafpad*” with “*sudo nano*” to edit the files via the Pi terminal.
+12. On the “Install SQL” page, replace the command “*sudo apt-get install mysql-server php-mysql -y*” with “*sudo apt install mariadb-server mariadb-client php-mysql -y*”. In a Recently, Raspbian MySQL has been replaced replaced with MariaDB, a fork of the MySQL. 
+13. Continue with the guide @ https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress
+14. After this process is completed, retrieve your public IP address of your Pi as we will need this later... Simply type in “*curl ifconfig.me*” and write down this address. Should be of the form "xxx.xx.xx.xxx". 
 
 Note: This process will allow you to create and host your own website **LOCALLY**. To make your website **PUBLIC** i.e. accessible by anyone and not just within your own network then complete the following...
 
