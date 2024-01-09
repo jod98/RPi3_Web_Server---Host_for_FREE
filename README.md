@@ -64,6 +64,10 @@ Note: This process will allow you to create and host your own website **LOCALLY*
 
 21. Before you begin editing your website, I encourage you to set up SSL. This is the "lock" icon you see which informs the user that the website is "secure" which encrypts all your personal data you enter into the site like credit card details, phone numbers etc. As a result your website will have the "https://" initial address. To begin setting up SSL follow this guide: https://variax.wordpress.com/2017/03/18/adding-https-to-the-raspberry-pi-apache-web-server/comment-page-1/. NOTE: The 'FDQN' name is simply your domain name i.e. "jordanodonnell.me". If you experience any issues with certain commands, please refer to the comments section below in the guide. After you complete the guide you will want to restart your Apache web server by issuing the following command: “*sudo systemctl restart apache2*”. Lastly, follow this portion of the YouTube video to finalise setting up SSL: https://youtu.be/8AZ8GqW5iak?t=4073
 
+If encountering issues with SSL, refer here:
+- https://pimylifeup.com/raspberry-pi-ssl-lets-encrypt/
+- https://blog.piandpython.net/hosting-your-wordpress-blog-on-a-raspberry-pi/#https
+
 ![SSL](https://user-images.githubusercontent.com/36043248/87311151-c7c8cf00-c516-11ea-93fd-971c7f727360.PNG)
 
 22. Lastly, navigate to the general settings tab of your website's admin page. Enter in your domain name ensuring you include 'https://' at the beginning as we have successfully encrypted the data transmitted over this domain in the previous step. 
